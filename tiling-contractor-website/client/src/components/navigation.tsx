@@ -28,7 +28,7 @@ export default function Navigation() {
               </div>
             </div>
             <span className="text-xl font-bold text-foreground" data-testid="company-name">
-              Premier Tile Solutions
+              The Tanko Tiling Company Limited
             </span>
           </div>
           

@@ -22,7 +22,7 @@ export default function Footer() {
                 </div>
               </div>
               <span className="text-xl font-bold" data-testid="footer-company-name">
-                Premier Tile Solutions
+                The Tanko Tiling Company Limited
               </span>
             </div>
             <p className="text-gray-400 mb-6" data-testid="footer-company-description">
@@ -194,11 +194,11 @@ export default function Footer() {
             <div className="space-y-3 text-gray-400">
               <div className="flex items-center" data-testid="footer-contact-phone">
                 <span className="w-5 text-yellow-400">📞</span>
-                <span className="ml-3">(555) 123-4567</span>
+                <span className="ml-3">+233 55 686 2984</span>
               </div>
               <div className="flex items-center" data-testid="footer-contact-email">
                 <span className="w-5 text-yellow-400">✉️</span>
-                <span className="ml-3">info@premiertilesolutions.com</span>
+                <span className="ml-3">info@tankotilingcompany.com</span>
               </div>
               <div className="flex items-start" data-testid="footer-contact-location">
                 <span className="w-5 text-yellow-400 mt-1">📍</span>

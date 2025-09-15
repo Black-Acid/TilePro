@@ -84,7 +84,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold">Call Us</div>
-                  <div className="text-gray-200">(555) 123-4567</div>
+                  <div className="text-gray-200">+233 55 686 2984 / +233 53 599 2377</div>
                 </div>
               </div>
               
@@ -94,7 +94,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold">Email Us</div>
-                  <div className="text-gray-200">info@premiertilesolutions.com</div>
+                  <div className="text-gray-200">info@tankotilingcompany.com</div>
                 </div>
               </div>
               

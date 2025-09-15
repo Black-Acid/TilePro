@@ -1,70 +1,70 @@
-import { Bath, Utensils, Home, Building, Wrench, Palette } from "lucide-react";
+import { Bath, Utensils, Home, Building, Layers, Square } from "lucide-react";
 
 const services = [
   {
-    icon: Bath,
-    title: "Bathroom Tiling",
-    description: "Complete bathroom renovations including shower surrounds, floor tiles, and waterproof installations.",
+    icon: Square,
+    title: "Wall Tiles",
+    description: "Professional wall tile installation for interior and exterior applications with precision and style.",
     features: [
-      "Shower & bathtub surrounds",
-      "Floor tile installation", 
-      "Waterproofing solutions",
-      "Custom design layouts"
-    ]
-  },
-  {
-    icon: Utensils,
-    title: "Kitchen Backsplashes",
-    description: "Stunning kitchen backsplashes that combine functionality with beautiful design aesthetics.",
-    features: [
-      "Subway & mosaic tiles",
-      "Natural stone options",
-      "Custom patterns",
-      "Precision cutting & fitting"
+      "Interior wall tiling",
+      "Bathroom wall installation", 
+      "Kitchen backsplash tiles",
+      "Geometric pattern designs"
     ]
   },
   {
     icon: Home,
-    title: "Floor Tiling",
-    description: "Durable and beautiful floor installations for every room in your home or business.",
+    title: "Floor Tiles",
+    description: "Expert floor tiling services for residential and commercial spaces with durable materials.",
     features: [
-      "Ceramic & porcelain",
-      "Natural stone floors",
-      "Luxury vinyl tiles",
-      "Underfloor heating prep"
+      "Ceramic floor tiles",
+      "Porcelain installations",
+      "Pattern floor designs",
+      "Waterproof floor solutions"
+    ]
+  },
+  {
+    icon: Utensils,
+    title: "Kitchen Tiles",
+    description: "Specialized kitchen tiling including countertops, backsplashes, and floor installations.",
+    features: [
+      "Kitchen backsplashes",
+      "Countertop tiling",
+      "Kitchen floor tiles",
+      "Heat-resistant materials"
     ]
   },
   {
     icon: Building,
-    title: "Commercial Projects",
-    description: "Large-scale commercial installations for restaurants, offices, and retail spaces.",
+    title: "Elevation Tiles",
+    description: "External building elevation tiling for enhanced aesthetics and weather protection.",
     features: [
-      "Restaurant & hospitality",
-      "Office buildings",
-      "Retail environments",
-      "Healthcare facilities"
+      "External wall cladding",
+      "Weather-resistant tiles",
+      "Architectural facades",
+      "Building exterior design"
     ]
   },
   {
-    icon: Wrench,
-    title: "Tile Repair & Restoration",
-    description: "Expert repair services to restore damaged tiles and refresh existing installations.",
+    icon: Bath,
+    title: "Bathroom Tiling",
+    description: "Complete bathroom tile solutions including walls, floors, and shower installations.",
     features: [
-      "Cracked tile replacement",
-      "Grout cleaning & repair",
-      "Seal & waterproof renewal",
-      "Color matching services"
+      "Shower wall tiling",
+      "Bathroom floor tiles",
+      "Waterproof installations",
+      "Modern geometric designs"
     ]
   },
   {
-    icon: Palette,
-    title: "Design Consultation",
-    description: "Professional design advice to help you choose the perfect tiles for your project.",
+    icon: Layers,
+    title: "Custom Tile Projects",
+    description: "Bespoke tile installations tailored to your specific design requirements and vision.",
     features: [
-      "Material selection guidance",
-      "Layout & pattern design",
-      "Color coordination",
-      "3D visualizations"
+      "Custom pattern design",
+      "Mixed material projects",
+      "Artistic tile layouts",
+      "Precision craftsmanship"
     ]
   }
 ];

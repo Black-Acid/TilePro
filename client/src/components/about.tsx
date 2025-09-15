@@ -30,7 +30,7 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-4xl font-bold mb-6" data-testid="about-title">
-              Why Choose Premier Tile Solutions?
+              Why Choose The Tanko Tiling Company Limited?
             </h2>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed" data-testid="about-description">
               With over 15 years of experience in professional tile installation, we bring unmatched expertise and attention to detail to every project.

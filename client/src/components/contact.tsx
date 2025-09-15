@@ -44,10 +44,12 @@ export default function Contact() {
     mutationFn: async (data: ContactFormData) => {
       return apiRequest("POST", "/api/contact", data);
     },
-    onSuccess: () => {
+    onSuccess: (data) => {
+      console.log('Form submission successful:', data);
       toast({
         title: "Quote Request Sent!",
         description: "Thank you for your request. We'll respond within 24 hours with a detailed estimate.",
+        duration: 5000,
       });
       form.reset();
     },
@@ -84,7 +86,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold">Call Us</div>
-                  <div className="text-gray-200">(555) 123-4567</div>
+                  <div className="text-gray-200">+233 55 686 2984 / +233 53 599 2377</div>
                 </div>
               </div>
               
@@ -94,7 +96,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold">Email Us</div>
-                  <div className="text-gray-200">info@premiertilesolutions.com</div>
+                  <div className="text-gray-200">info@tankotilingcompany.com</div>
                 </div>
               </div>
               

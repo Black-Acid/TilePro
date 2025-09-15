@@ -1,57 +1,59 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
+import tankoProjectsImage from '@assets/Tanko Images_1757900518546.jpg';
+
 const portfolioItems = [
   {
     id: 1,
     category: "bathroom",
-    title: "Modern Master Bathroom",
-    description: "Large format porcelain tiles with frameless glass shower",
-    image: "https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+    title: "Modern Checkered Bathroom",
+    description: "Black and white geometric checkered tiles with precision installation",
+    image: tankoProjectsImage
   },
   {
     id: 2,
-    category: "kitchen",
-    title: "Classic Kitchen Backsplash",
-    description: "White subway tiles with marble countertops",
-    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+    category: "floor",
+    title: "Professional Floor Installation",
+    description: "Expert floor tiling with meticulous attention to detail",
+    image: tankoProjectsImage
   },
   {
     id: 3,
     category: "bathroom",
-    title: "Contemporary Guest Bath",
-    description: "Geometric pattern tiles with custom vanity",
-    image: "https://images.unsplash.com/photo-1594398901394-4e34939a4fd0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+    title: "Contemporary Geometric Bath",
+    description: "Modern black and white geometric pattern bathroom tiles",
+    image: tankoProjectsImage
   },
   {
     id: 4,
     category: "floor",
-    title: "Living Room Floor",
-    description: "Wood-look porcelain tiles with underfloor heating",
-    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+    title: "Residential Floor Project",
+    description: "Quality residential floor tiling with professional craftsmanship",
+    image: tankoProjectsImage
   },
   {
     id: 5,
-    category: "commercial",
-    title: "Restaurant Interior",
-    description: "Industrial subway tiles with custom layouts",
-    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+    category: "wall",
+    title: "Wall Tiling Excellence",
+    description: "Precision wall tile installation with perfect alignment",
+    image: tankoProjectsImage
   },
   {
     id: 6,
-    category: "kitchen",
-    title: "Gourmet Kitchen",
-    description: "Natural stone backsplash with professional finishes",
-    image: "https://images.unsplash.com/photo-1565182999561-18d7dc61c393?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+    category: "elevation",
+    title: "Elevation Tile Project",
+    description: "Professional elevation tiling for enhanced building aesthetics",
+    image: tankoProjectsImage
   }
 ];
 
 const filterOptions = [
   { value: "all", label: "All Projects" },
   { value: "bathroom", label: "Bathrooms" },
-  { value: "kitchen", label: "Kitchens" },
-  { value: "floor", label: "Floors" },
-  { value: "commercial", label: "Commercial" }
+  { value: "floor", label: "Floor Tiles" },
+  { value: "wall", label: "Wall Tiles" },
+  { value: "elevation", label: "Elevation Tiles" }
 ];
 
 export default function Portfolio() {
