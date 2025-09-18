@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
-import tankoProjectsImage from '@assets/Tanko Images_1757900518546.jpg';
+
 import TankoImage from '@assets/TankoImage.jpg';
 import TankoImage1 from '@assets/TankoImage1.jpg';
 import TankoImage2 from '@assets/TankoImage2.jpg';
