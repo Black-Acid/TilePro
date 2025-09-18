@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 
 import TankoImage from '@assets/TankoImage.jpg';
 import TankoImage1 from '@assets/TankoImage1.jpg';
-import TankoImage2 from '@assets/TankoImage2.jpg';
-import TankoImage3 from '@assets/TankoImage3.jpeg';
+import TankoImage2 from '@assets/tankoImage2.jpg';
+import TankoImage3 from '@assets/tankoImage3.jpeg';
 import TankoImage4 from '@assets/TankoImage4.jpeg';
 import TankoImageK from '@assets/TankoImageK.jpeg';
 
