@@ -3,6 +3,8 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertContactSubmissionSchema } from "@shared/schema";
 import { z } from "zod";
+import nodemailer from "nodemailer";
+import twilio from "twilio";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Contact form submission endpoint
@@ -10,7 +12,36 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const validatedData = insertContactSubmissionSchema.parse(req.body);
       const submission = await storage.createContactSubmission(validatedData);
+
+      const transporter = nodemailer.createTransport({
+        service: "gmail",
+        auth: {
+          user: process.env.ADMIN_EMAIL, // e.g., your Gmail
+          pass: process.env.ADMIN_PASSWORD, // app password (not raw Gmail password!)
+        },
+      });
+  
+      await transporter.sendMail({
+        from: process.env.ADMIN_EMAIL,
+        to: process.env.ADMIN_EMAIL,
+        subject: "📩 New Contact Form Submission",
+        text: `
+          Name: ${validatedData.firstName + " " + validatedData.lastName}
+          Email: ${validatedData.email}
+          Message: ${validatedData.message}
+          service: ${validatedData.projectType}
+        `,
+      });
+  
+    
+
+
+
+
+
       res.json({ success: true, id: submission.id });
+
+
     } catch (error) {
       if (error instanceof z.ZodError) {
         res.status(400).json({ 

@@ -2,49 +2,55 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
 import tankoProjectsImage from '@assets/Tanko Images_1757900518546.jpg';
+import TankoImage from '@assets/TankoImage.jpg';
+import TankoImage1 from '@assets/TankoImage1.jpg';
+import TankoImage2 from '@assets/TankoImage2.jpg';
+import TankoImage3 from '@assets/TankoImage3.jpeg';
+import TankoImage4 from '@assets/TankoImage4.jpeg';
+import TankoImageK from '@assets/TankoImageK.jpeg';
 
 const portfolioItems = [
   {
     id: 1,
-    category: "bathroom",
-    title: "Modern Checkered Bathroom",
+    category: "floor",
+    title: "Residential Floor Project",
     description: "Black and white geometric checkered tiles with precision installation",
-    image: tankoProjectsImage
+    image: TankoImage
   },
   {
     id: 2,
-    category: "floor",
-    title: "Professional Floor Installation",
-    description: "Expert floor tiling with meticulous attention to detail",
-    image: tankoProjectsImage
-  },
-  {
-    id: 3,
     category: "bathroom",
     title: "Contemporary Geometric Bath",
     description: "Modern black and white geometric pattern bathroom tiles",
-    image: tankoProjectsImage
+    image: TankoImage1
+  },
+  {
+    id: 3,
+    category: "Kitchen",
+    title: "Colorful Morrocan",
+    description: "Modern pattern kitchen tiles",
+    image: TankoImageK
   },
   {
     id: 4,
     category: "floor",
     title: "Residential Floor Project",
     description: "Quality residential floor tiling with professional craftsmanship",
-    image: tankoProjectsImage
+    image: TankoImage4
   },
   {
     id: 5,
     category: "wall",
     title: "Wall Tiling Excellence",
     description: "Precision wall tile installation with perfect alignment",
-    image: tankoProjectsImage
+    image: TankoImage3
   },
   {
     id: 6,
     category: "elevation",
     title: "Elevation Tile Project",
     description: "Professional elevation tiling for enhanced building aesthetics",
-    image: tankoProjectsImage
+    image: TankoImage2
   }
 ];
 

@@ -203,7 +203,7 @@ export default function Footer() {
               <div className="flex items-start" data-testid="footer-contact-location">
                 <span className="w-5 text-yellow-400 mt-1">📍</span>
                 <span className="ml-3">
-                  Greater Metro Area<br />
+                  Kumasi, Ashanti<br />
                   & Surrounding Counties
                 </span>
               </div>
